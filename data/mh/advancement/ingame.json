@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "ingame":{
+            "trigger": "tick"
+        }
+    },
+    "display": {
+        "description": "欢迎来到BZBlockAlliance猎人游戏！",
+        "announce_to_chat": false,
+        "icon": "diamond_axe",
+        "title": "猎人游戏！",
+        "background": "block/crying_obsidian",
+        "frame": "challenge",
+        "show_toast": false
+    },
+    "rewards": {
+        "function": "mh:reset"
+    }
+}

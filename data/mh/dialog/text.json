@@ -1,0 +1,6 @@
+{
+    "type": "notice",
+    "pause": false,
+    "can_close_with_escape": true,
+    "title": "你好！"
+}

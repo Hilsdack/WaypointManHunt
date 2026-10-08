@@ -1,0 +1,43 @@
+{
+    "type": "multi_action",
+    "can_close_with_escape":false,
+    "title":{
+        "text": "选择队伍！",
+        "bold": true,
+        "color": "gold"
+    },
+    "columns": 2,
+    "actions": [
+        {
+            "action": {
+                "type": "run_command",
+                "command": "/function mh:choose/hunter"
+            },
+            "label": {
+                    "text": "猎人",
+                    "color": "red",
+                    "bold": true
+                },
+            "width": 150
+        },
+        {
+            "action": {
+                "type": "run_command",
+                "command": "/function mh:choose/runner"
+            },
+            "label": {
+                    "text": "逃跑者",
+                    "color": "green",
+                    "bold": true
+                },
+            "width": 150
+        }
+    ],
+    "body": {
+        "type": "item",
+        "item": {
+            "id": "diamond_axe"
+        },
+        "show_tooltip": false
+    }
+}
