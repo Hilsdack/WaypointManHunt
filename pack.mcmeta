@@ -1,0 +1,10 @@
+{
+    "pack":{
+        "description": 
+            "§6§lBZBlockAlliance§r §c§l§oManhunt§r专属数据包\n1.21.11路径点追踪数据包+猪灵交易优化\n§9§oBy Hils_dack§r",
+        "pack_format": 94,
+        "supported_formats": [48, 100],
+        "min_format": 48,
+        "max_format": [100, 0]
+    }
+}
